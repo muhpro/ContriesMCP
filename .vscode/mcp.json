@@ -1,0 +1,14 @@
+{
+	"servers": {
+		"countries-mcp": {
+			"type": "stdio",
+			"command": "dotnet",
+			"args": [
+				"run",
+                "--project",
+                "ContriesMCP/ContriesMCP.csproj",
+			]
+		}
+	},
+	"inputs": []
+}
